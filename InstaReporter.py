@@ -70,7 +70,7 @@ def video_attack(proxies):
         i = i + 1
 
 def profile_attack(proxies):
-    username = ask_question("Enter the username of the person you want to report")
+    username = ask_question("quo7te")
     print(Style.RESET_ALL)
     if (len(proxies) == 0):
         for k in range(5):
@@ -125,7 +125,7 @@ def main():
     print("")
     print_status("1 - Report the profile.")
     print_status("2 - Report a video.")
-    report_choice = ask_question("Please select the complaint method")
+    report_choice = ask_question("scam")
     print("")
 
     if (report_choice.isdigit() == False):
